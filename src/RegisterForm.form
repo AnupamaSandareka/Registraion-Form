@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegisterForm">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="678" height="560"/>
+    </constraints>
+    <properties>
+      <background color="-206992"/>
+      <font name="Eras Demi ITC" size="20"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="633c2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="images/user.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="85924" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="48" style="1"/>
+          <text value="Registration"/>
+        </properties>
+      </component>
+      <component id="39189" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="31da0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="96705" class="javax.swing.JTextField" binding="txtEmail">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+        </properties>
+      </component>
+      <component id="aea8e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Phone"/>
+        </properties>
+      </component>
+      <component id="76370" class="javax.swing.JTextField" binding="txtPhone">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+        </properties>
+      </component>
+      <component id="d4f42" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="9ff0f" class="javax.swing.JTextField" binding="txtAddress">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="beca4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="97a3" class="javax.swing.JPasswordField" binding="txtPassword">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+        </properties>
+      </component>
+      <component id="81594" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="d19c2" class="javax.swing.JPasswordField" binding="txtConfirmPassword">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+        </properties>
+      </component>
+      <component id="a488c" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="944eb" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="60670" class="javax.swing.JTextField" binding="txtName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="20"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="d6fef">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
