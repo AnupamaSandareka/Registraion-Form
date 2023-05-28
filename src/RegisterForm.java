@@ -80,10 +80,10 @@ public class RegisterForm extends JDialog{
         User user = null;
         final String DB_URL = "jdbc:mysql://localhost/MyStore?serverTimezone=UTC";
         final String USERNAME = "root";
-        final String PASSSWORD = "anu123@GMP";
+        final String PASSWORD = "anu123@GMP";
 
         try{
-            Connection connection = DriverManager.getConnection(DB_URL, USERNAME, PASSSWORD);
+            Connection connection = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
             // Connected to the database successfully..
 
             Statement statement = connection.createStatement();
